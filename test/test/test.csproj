@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Session_03' " />
+  <ItemGroup>
+    <None Remove="Views\Employee\" />
+    <None Remove="Areas\" />
+    <None Remove="Areas\Employee\" />
+    <None Remove="Areas\Product\" />
+    <None Remove="Areas\Employee\Controllers\" />
+    <None Remove="Areas\Employee\Views\" />
+    <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
+    <None Remove="Areas\Employee\Views\Employee\" />
+    <None Remove="Areas\Employee\Views\Shared\" />
+    <None Remove="Filter\" />
+    <None Remove="Models\Employee\" />
+    <None Remove="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Employee\" />
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\Employee\" />
+    <Folder Include="Areas\Product\" />
+    <Folder Include="Areas\Employee\Controllers\" />
+    <Folder Include="Areas\Employee\Views\" />
+    <Folder Include="Areas\Employee\Views\Employee\" />
+    <Folder Include="Areas\Employee\Views\Shared\" />
+    <Folder Include="Filter\" />
+    <Folder Include="Models\Employee\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+</Project>

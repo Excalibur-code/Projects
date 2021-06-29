@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Index List File";
+}
+
+<div class="text-center">
+    <h2>View File</h2>
+    <ul>
+        @*  @foreach(string str in ViewBag.Countries) *@
+        @foreach (string str in (List<string>)ViewData["Country"])
+        {
+            <li>@str</li>
+        }
+    </ul>
+</div>

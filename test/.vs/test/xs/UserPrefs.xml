@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{06A1B42C-6257-40EB-90C0-776BF19D36D3}|Session_03">
+  <MonoDevelop.Ide.ItemProperties.test PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="test/Areas/Employee/Controllers/EmployeeController.cs">
+    <Files>
+      <File FileName="test/Filter/CustomeActionFilter.cs" Line="1" Column="1" />
+      <File FileName="test/Filter/CustomActionFilterAttribute.cs" />
+      <File FileName="test/Areas/Employee/Controllers/EmployeeController.cs" Line="8" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
